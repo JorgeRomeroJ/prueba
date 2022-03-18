@@ -21,6 +21,7 @@ useEffect(()=>{
     const personajes = values.flatMap(value => [...value.results])
     setPersonajes(personajes);
 });
+// eslint-disable-next-line react-hooks/exhaustive-deps
 },[])
   
 //Para solo una página de API
